@@ -49,8 +49,8 @@ body {
     <h1 class="h3 mb-3 fw-normal">Sign in</h1>
 
     <div class="form-floating">
-      <input type="text" class="form-control" name="name" id="floatingInput" placeholder="name@example.com">
-      <label for="floatingInput">Email address</label>
+      <input type="text" class="form-control" name="name" id="floatingInput" placeholder="Username">
+      <label for="floatingInput">Username</label>
     </div>
     <div class="form-floating">
       <input type="password" class="form-control" name="password" id="floatingPassword" placeholder="Password">
@@ -73,7 +73,7 @@ body {
             $query=mysqli_query($conn,$str);
             $row=mysqli_num_rows($query);
             if($row == 1){
-                echo "<script>window.location.href='conn.php';alert('Login Successfully...☣☣☣')</script>";
+                echo "<script>window.location.href='category.php';alert('Login Successfully...☣☣☣')</script>";
 
             }else{
                 echo "<script>alert('Login Failed...⚠⚠⚠')</script>";

@@ -24,7 +24,7 @@ include 'header.php'; ?>
     </h1>
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Sub-Category :</label>
-    <input type="text" class=" form-control" name="subname" value="<?php if(isset($_GET['update_id'])){ }?>" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" class=" form-control" name="subname" value="<?php if(isset($_GET['update_id'])){ }?>" id="exampleInputEmail1" aria-describedby="emailHelp" required>
    
     <div class="mb-3 my-3">
     <label for="exampleInputEmail1" class="form-label">Category :</label>

@@ -16,7 +16,7 @@
     <a class="py-2 d-none d-md-inline-block text-decoration-none" href="category.php">Category</a>
     <a class="py-2 d-none d-md-inline-block text-decoration-none" href="subcategory.php">Subcategory</a>
     <a class="py-2 d-none d-md-inline-block text-decoration-none" href="product.php">Product</a>
-    <a class="py-2 d-none d-md-inline-block text-decoration-none" href="#">Date-Range-Wise-Report</a>
+    <a class="py-2 d-none d-md-inline-block text-decoration-none" href="range.php">Date-Range-Wise-Report</a>
     <!-- <a class="btn btn-outline-light text-decoration-none" href="#">login</a> -->
     <!-- <a class="btn btn-outline-light text-decoration-none" href="#">Logout</a> -->
     <!-- <a class="py-2 d-none d-md-inline-block text-decoration-none" href="#">Cart</a> -->

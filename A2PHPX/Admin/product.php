@@ -66,33 +66,33 @@ session_start(); ?>
                     
                     <div class="mb-3 my-3">
                         <!-- <label for="exampleInputEmail1" class="form-label">Product Name :</label> -->
-                        <input type="file" class=" form-control" name="file" value="" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="file" class=" form-control" name="file" value="" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
 
                     <div class="mb-3 my-3">
                         <label for="exampleInputEmail1" class="form-label">Product Name :</label>
-                        <input type="text" class=" form-control" name="ProdName" value="" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="text" class=" form-control" name="ProdName" value="" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
 
                     <div class="mb-3 my-3">
                         <label for="exampleInputEmail1" class="form-label">Product Description :</label>
-                        <textarea class=" form-control" name="ProdDesc" id="exampleInputEmail1" aria-describedby="emailHelp"></textarea>
+                        <textarea class=" form-control" name="ProdDesc" id="exampleInputEmail1" aria-describedby="emailHelp" required></textarea>
                     </div>
 
                     <div class="mb-3 my-3">
                         <label for="exampleInputEmail1" class="form-label">Product Price :</label>
-                        <input type="number" class=" form-control" name="ProdPrice" value="" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="number" class=" form-control" name="ProdPrice" value="" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                     </div>
 
                     <div class="form-group">
             <label>Select Category</label>
-            <select name="category_item" id="category_item" class="form-control input-lg" data-live-search="true" title="Select Category">
+            <select name="category_item" id="category_item" class="form-control input-lg" data-live-search="true" title="Select Category" required>
 
             </select>
           </div>
           <div class="form-group">
             <label>Select Sub Category</label>
-            <select name="sub_category_item" id="sub_category_item" class="form-control input-lg" data-live-search="true" title="Select Sub Category">
+            <select name="sub_category_item" id="sub_category_item" class="form-control input-lg" data-live-search="true" title="Select Sub Category" required>
 
             </select>
           </div>

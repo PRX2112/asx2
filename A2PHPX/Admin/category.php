@@ -23,7 +23,7 @@ include 'header.php'; ?>
     </h1>
     <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Category :</label>
-    <input type="text" class="form-control" name="name" value="<?php ?>" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" class="form-control" name="name" value="<?php ?>" id="exampleInputEmail1" aria-describedby="emailHelp" required>
     <div class="text-center">
         <input type="submit" class="btn btn-dark text-center my-3" value="Add" name="submit">
     </div>
